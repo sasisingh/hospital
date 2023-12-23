@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div>
       <div>
-        <img src={main} alt='' className='w-full opacity-30 h-[475px] absolute ' />
+        <img src={main} alt='dr' className='w-full opacity-30 h-[475px] absolute ' />
         <div className='grid sm:grid-cols-1  pt-10 sm:mx-20 md:grid-cols-2 md:mx-5 lg:grid-cols-2 mx-10'>
           <div className='relative mx-auto'>
             <img src={dr2} alt="dr" />
