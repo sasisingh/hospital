@@ -10,10 +10,10 @@ const Main = () => {
   return (
     <div>
       <div>
-        <img src={main} alt='main' className='w-full opacity-30 h-[475px] absolute ' />
+        <img src={main} alt='section1' className='w-full opacity-30 h-[475px] absolute ' />
         <div className='grid sm:grid-cols-1  pt-10 sm:mx-20 md:grid-cols-2 md:mx-5 lg:grid-cols-2 mx-10'>
           <div className='relative mx-auto'>
-            <img src={dr2} alt="dr2" />
+            <img src={dr2} alt="section2" />
           </div>
           <div>
             <h1 className='text-4xl font-bold text-sky-600 leading-normal'>SWEET TREATMENT<br /> FOR ALL YOUR PAINS</h1>
