@@ -6,7 +6,7 @@ const ContactUs = () => {
       <div className=''>
         <div className='flex bg-slate-400 '>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28005.338472228173!2d77.04404133979283!3d28.669678595677546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0438728d3fc9%3A0x64e1eebb4ec4e142!2z4KSo4KS-4KSC4KSX4KSy4KWL4KSILCDgpKbgpL_gpLLgpY3gpLLgpYA!5e0!3m2!1shi!2sin!4v1703163830917!5m2!1shi!2sin" width="1530" title='map-title' height="450" style={{ "border": "0;" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28005.338472228173!2d77.04404133979283!3d28.669678595677546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0438728d3fc9%3A0x64e1eebb4ec4e142!2z4KSo4KS-4KSC4KSX4KSy4KWL4KSILCDgpKbgpL_gpLLgpY3gpLLgpYA!5e0!3m2!1shi!2sin!4v1703163830917!5m2!1shi!2sin" width="1530" title='Hospital Location' height="450" style={{ "border": "0;" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div className='flex md:max-w-[1080px] border rounded-sm border-gray-400 bg-white shadow-md shadow-slate-400  relative top-[-15px] mx-auto md:mx-32'>
