@@ -6,7 +6,7 @@ const AboutUs = () => {
     <div className=''>
       <div className='grid md:grid-cols-2 md:mx-[80px] sm:grid-cols-1 sm:mx-[150px] lg:grid-cols-2 gap-10 p-10  lg:mx-[200px]'>
         <div className=''>
-          <img src={About} alt='about-image' loading='lazy' className=' border-8 shadow-lg shadow-slate-400 border-white' />
+          <img src={About} alt='about' loading='lazy' className=' border-8 shadow-lg shadow-slate-400 border-white' />
         </div>
         <div className='text-justify leading-normal'>
           <h1 className='text-center text-xl font-bold'>Welcome to our Hospital</h1>
