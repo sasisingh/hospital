@@ -11,7 +11,7 @@ const AppFormDr = () => {
         </div>
 
         <div className='sm:mx-20 md:mx-0 xl:m-0 '>
-        <img src={dr5} alt="DrImage" className='h-[450px]' />
+        <img src={dr5} alt="DrImage" className='h-[500px]' />
         </div>
       </div>
     </div>
