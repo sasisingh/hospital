@@ -12,22 +12,22 @@ const Team = () => {
       </div>
       <div className='grid sm:grid-cols-2 lg:grid-cols-4 lg:mx-[170px] md:mx-[120px] sm:mx-[0px]'>
 
-        <div className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
+        <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr1} alt='team' className='h-56  w-42 mx-auto' />
           <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>
         </div>
-        <div className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
+        <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr2} alt='team' className='h-56 mt-2 w-42 mx-auto' />
           <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>
         </div>
-        <div className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
+        <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr3} alt='team' className='h-56 mt-2 w-42 mx-auto' />
           <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>
         </div>
-        <div className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
+        <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr4} alt='team' className='h-56 mt-2 w-42 mx-auto' />
           <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>

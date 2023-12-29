@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from './components/Navbar'
 import { treatments } from "./data"
 import Main from './pages/Main'
@@ -7,8 +7,12 @@ import Footer from './pages/Footer.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import ContactUs from './pages/ContactUs.jsx'
 import { Route, Routes } from 'react-router-dom'
-
+import Aos from "aos"
+import "aos/dist/aos.css"
 const App = () => {
+  useEffect(()=>{
+    Aos.init()
+  },[])
   return (
     <div>
       <Navbar />
@@ -19,6 +23,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
+      
     </div>
   )
 }
