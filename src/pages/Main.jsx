@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import Treatment from './Treatment'
 import { treatments } from '../data'
 import AppFormDr from './AppFormDr'
