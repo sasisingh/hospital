@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
       </div>
-      <div className='text-white bg-gray-800 text-center text-base py-3'>2023 © All Rights Reserved Designed and developed by sasi</div>
+      <div className='text-white bg-gray-800 text-center text-base py-3'>2024 © All Rights Reserved Designed and developed by sasi</div>
     </div>
   )
 }

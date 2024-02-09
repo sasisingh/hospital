@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <div>
       <div>
-       <div style={{backgroundImage: `url(${main})`}} className='bg-cover'>
+       <div style={{backgroundImage: `url(${main})`}} className='bg-cover object-cover'>
        <div className='grid sm:grid-cols-1 pt-10 sm:mx-20 md:grid-cols-2 md:mx-5 lg:grid-cols-2 mx-10'
          >
           <div data-aos="fade-right" className='relative mx-auto'>
