@@ -25,13 +25,13 @@ const AboutAccordian = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto bg-gray-100">
       <Accordion
         title="1. What are the physical and mental aspects of medicine?"
         isOpen={openIndex === 0}
         onClick={() => handleAccordionClick(0)}
       >
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, adipisci nulla dolores molestias ipsum eveniet. Veritatis, voluptate, voluptatem fugiat fuga consectetur explicabo ducimus itaque corrupti vero saepe blanditiis, amet dolores.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, a?</p>
+        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, adipisci nulla dolores molestias ipsum eveniet. Veritatis, voluptate, voluptatem fugiat fuga consectetur explicabo ducimus itaque corrupti vero saepe blanditiis, amet dolores.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, a?</p>
       </Accordion>
       <Accordion
         title="2. Can such small doses be effective?"
