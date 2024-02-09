@@ -17,7 +17,7 @@ const AboutUs = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolore a reiciendis temporibus quasi neque.</p>
         </div>
       </div>
-      <div className='w-full opacity-6 h-[400px]' style={{background:`url(${aboutBackground})`}}>
+      <div className='w-full h-[400px]' style={{background:`url(${aboutBackground})`}}>
         <div className='grid md:grid-cols-2 md:mx-[80px] sm:grid-cols-1 sm:mx-[150px] lg:grid-cols-2 gap-10 p-10  lg:mx-[200px]'>
           <div>
             <table className='table-auto border border-collapse w-full bg-slate-50 text-center border-slate-500'>
