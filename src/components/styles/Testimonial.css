@@ -1,0 +1,29 @@
+.testimonial-carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 48%; /* Adjust as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+  }
+  /* button {
+    margin-right: 10px;
+  } */

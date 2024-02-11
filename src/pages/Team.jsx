@@ -14,7 +14,7 @@ const Team = () => {
 
         <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr1} alt='team' className='h-56  w-42 mx-auto' />
-          <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
+          <h1 className='text-center text-lg font-serif'>Pavan Sharma</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>
         </div>
         <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
@@ -24,12 +24,12 @@ const Team = () => {
         </div>
         <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr3} alt='team' className='h-56 mt-2 w-42 mx-auto' />
-          <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
+          <h1 className='text-center text-lg font-serif'>Neetu Jain</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>
         </div>
         <div data-aos="zoom-out" className='border rounded shadow-lg shadow-slate-200 mx-5 my-10'>
           <img src={dr4} alt='team' className='h-56 mt-2 w-42 mx-auto' />
-          <h1 className='text-center text-lg font-serif'>Reema Goyal</h1>
+          <h1 className='text-center text-lg font-serif'>Sanjeev Saxena</h1>
           <p className='text-center font-serif mb-1'>Specialist</p>
         </div>
 

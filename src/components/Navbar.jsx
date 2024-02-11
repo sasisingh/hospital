@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div>
 
-      <nav class="bg-blue-300 border-gray-200 dark:bg-gray-900">
+      <nav class="bg-blue-300 border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={Logo} class="h-8" alt="Logo" />
