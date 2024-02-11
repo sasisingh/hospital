@@ -10,7 +10,7 @@ const AboutUs = () => {
           <img src={About} alt='about' loading='lazy' className=' border-8 shadow-lg shadow-slate-400 border-white' />
         </div>
         <div className='text-justify leading-normal'>
-          <h1 className='text-center text-xl font-bold'>Welcome to our Hospital</h1>
+          <h1 className='text-center font-serif text-xl font-bold'>Welcome to our Hospital</h1>
           <p className='mt-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ipsa laboriosam pariatur sint ad explicabo omnis consequuntur, perspiciatis nam aspernatur!</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis id blanditiis corrupti dolorem possimus inventore libero voluptate itaque. Reprehenderit ad distinctio possimus ab quae aspernatur dolorem officiis voluptate aperiam dolorum.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, nisi?</p>
@@ -23,7 +23,7 @@ const AboutUs = () => {
             <table className='table-auto border border-collapse w-full bg-slate-50 text-center border-slate-500'>
               <thead>
                 <tr>
-                  <td colspan="2" className="border px-3 py-2 border-slate-300 bg-slate-500 text-center">Openeing Hours</td>
+                  <td colspan="2" className="border px-3 py-2 font-serif border-slate-300 bg-slate-500 text-center">Openeing Hours</td>
                 </tr>
               </thead>
               <tbody>

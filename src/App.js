@@ -9,7 +9,7 @@ import ContactUs from './pages/ContactUs.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Aos from "aos"
 import "aos/dist/aos.css"
-import Testimonials from './pages/Testimonials.jsx'
+
 const App = () => {
   useEffect(()=>{
     Aos.init()
@@ -23,7 +23,7 @@ const App = () => {
         <Route path="/treatment" element={<Treatment treatments={treatments} />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
-      <Testimonials/>
+      
       <Footer />
       
     </div>

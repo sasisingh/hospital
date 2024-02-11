@@ -6,7 +6,7 @@ const AppointmentForm = () => {
     <div className='bg-white pt-5'>
 
       <div className=''>
-        <h1 className='text-center  font-bold text-2xl'>Appointment</h1>
+        <h1 className='text-center font-serif font-bold text-2xl'>Appointment</h1>
         <p className='text-center text-gray-800'>Book an Appointment now we are here for you</p>
       </div>
       <div className='px-5'>

@@ -6,7 +6,7 @@ const TreatmentCard = ({ item }) => {
            <center>
            <img src={item.img} alt="treatment" />
            </center>
-            <p className='text-center font-bold text-lg mt-2'>{item.title}</p> 
+            <p className='text-center font-serif font-bold text-lg mt-2'>{item.title}</p> 
             <p className='text-clip mt-2'>{item.description}</p>
         </div>
     )

@@ -5,7 +5,7 @@ import AppFormDr from './AppFormDr'
 import Team from './Team'
 import dr2 from "../assets/dr2.png"
 import main from "../assets/main.jpg"
-
+import Testimonials from './Testimonials.jsx'
 
 const Main = () => {
 
@@ -19,7 +19,7 @@ const Main = () => {
             <img src={dr2} alt="section2" />
           </div>
           <div>
-            <h1 data-aos="fade-down" className='text-4xl font-bold text-sky-600 leading-normal'>SWEET TREATMENT<br /> FOR ALL YOUR PAINS</h1>
+            <h1 data-aos="fade-down" className='text-4xl font-bold font-serif text-sky-600 leading-normal'>SWEET TREATMENT<br /> FOR ALL YOUR PAINS</h1>
             <h3 data-aos="fade-down" className='text-2xl font-bold text-sky-600 leading-normal'>We Provide best Treatment for you</h3>
             <p data-aos="fade-down" className='text-lg text mt-3 leading-normal'>Our treatment is very benificial for people as it is<br />
               very useful and efficient in treating an immense range of diseases and long-term illness.
@@ -39,6 +39,7 @@ const Main = () => {
       <Treatment treatments={treatments} />
       <AppFormDr />
       <Team />
+      <Testimonials/>
     </div>
 
   )
